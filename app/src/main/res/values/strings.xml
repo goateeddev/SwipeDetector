@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Swipe Detector</string>
+    <string name="txt_countdown">COUNTDOWN</string>
+    <string name="txt_timer">TIMER</string>
+    <string name="txt_levels">LEVELS</string>
+    <string name="txt_highscores">HIGHSCORES</string>
+    <string name="txt_settings">SETTINGS</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_select">Select</string>
+    <string name="btn_left">Left</string>
+    <string name="btn_right">Right</string>
+    <string name="tv_timer_instruction">Enter your swipe target:</string>
+    <string name="tv_background">Background</string>
+    <string name="tv_countdown_instruction">Select seconds for countdown</string>
+    <string name="txt_time">00:00</string>
+    <string name="txt_count">0</string>
+    <string name="txt_swipe">Swipe Now!</string>
+</resources>

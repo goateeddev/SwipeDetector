@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.goateeddev.swipedetector.HomeActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"/>
+
+    <ImageView
+        android:layout_width="339dp"
+        android:layout_height="143dp"
+        android:background="@mipmap/swipe_detector"
+        android:contentDescription="@string/app_name"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"/>
+
+    <TextView
+        style="@style/BlackWhiteTheme.TextView.Black"
+        android:id="@+id/tv_countdown"
+        android:text="@string/txt_countdown"/>
+
+    <TextView
+        style="@style/BlackWhiteTheme.TextView.White"
+        android:id="@+id/tv_timer"
+        android:text="@string/txt_timer"/>
+
+    <TextView
+        style="@style/BlackWhiteTheme.TextView.Black"
+        android:id="@+id/tv_levels"
+        android:text="@string/txt_levels"/>
+
+    <TextView
+        style="@style/BlackWhiteTheme.TextView.White"
+        android:id="@+id/tv_highscores"
+        android:text="@string/txt_highscores"/>
+
+    <TextView
+        style="@style/BlackWhiteTheme.TextView.Black"
+        android:id="@+id/tv_settings"
+        android:text="@string/txt_settings"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"/>
+
+</LinearLayout>

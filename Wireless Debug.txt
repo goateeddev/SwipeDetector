@@ -1,0 +1,35 @@
+Connect your Android device and adb host computer to a common Wi-Fi network accessible to both.
+
+Connect the device to the host computer with a USB cable.
+
+Run CMD in platform tools directory
+cd C:\Users\username\AppData\Local\Android\sdk\platform-tools
+
+Set the target device to listen for a TCP/IP connection on port 5555.
+$ adb tcpip 5555
+
+Disconnect the USB cable from the target device.
+
+Find the IP address of the Android device.
+
+Connect to the device, identifying it by IP address.
+$ adb connect device_ip_address
+
+Confirm that your host computer is connected to the target device:
+$ adb devices
+
+List of devices attached
+device_ip_address:5555 device
+
+You're now good to go!
+
+If the adb connection is ever lost:
+
+Make sure that your host is still connected to the same Wi-Fi network your Android device is.
+
+Reconnect by executing the adb connect step again.
+
+Or if that doesn't work, reset your adb host:
+adb kill-server
+
+Then start over from the beginning.
